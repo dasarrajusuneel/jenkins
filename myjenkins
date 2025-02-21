@@ -2,12 +2,12 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Hello2') {
             steps {
                 echo 'Hello World'
             }
         }        
-        stage('suneel') {
+        stage('suneel1') {
             steps {
                 echo 'this is suneel'
             }        
